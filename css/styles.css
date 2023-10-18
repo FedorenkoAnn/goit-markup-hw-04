@@ -81,8 +81,7 @@ img {
 }
 .header-menu-item{
   background-color: #FFFFFF;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .header-menu-link {
@@ -131,6 +130,10 @@ img {
 /*=================== HERO ==================*/
 .hero {
   background-color: var(--NAVY-BLUE, #2E2F42);
+  background-image: url(../images/people-office\ 1.svg);
+  background-repeat: none;
+  background-position: center;
+background-size: cover;
   padding: 188px 0 188px;
   max-width: 1440px;
   margin: 0 auto;
