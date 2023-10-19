@@ -25,7 +25,7 @@ img {
 }
 
 
-/* ============ Header ============== */
+/* ============ HEADER ============== */
 
 .container{
   margin: 0 auto;
@@ -50,12 +50,11 @@ img {
   align-items: center;
 }
 .header{
-  border-bottom: 1px solid #e7e9fc;
   border-bottom: 1px solid #E7E9FC;
-    display: flex;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: flex;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -80,7 +79,7 @@ img {
   text-transform: uppercase;
 }
 
-.header-logo-link {
+.second-header-link {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -359,14 +358,14 @@ img {
 /* =============== PORTFOLIO ============== */
 
 .portfolio {
- 
   padding-top: 120px; 
   padding-bottom: 120px;
 
 }
+
 .portfolio-container {
   position: relative;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .pparagraf {
@@ -387,11 +386,10 @@ img {
 .portfolio-name {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none;
+  border-top: 0;
 }
 
 .portfolio-list {
- 
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -419,6 +417,7 @@ img {
 .portfolio-list-item:hover .pparagraf {
   transform: translateY(0%);
 }
+
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -433,7 +432,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-
 }
 .portfolio-list-text {
   color: var(--SLATE, #434455);
@@ -441,9 +439,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
 }
-/*============*/
 
 /*===== FOOTER ========*/
 
