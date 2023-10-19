@@ -147,20 +147,27 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contacts-link:hover, .address-contacts-link:focus {
   color: #404BBF;
 }
 
+.address-menu-item {
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /*=================== HERO ==================*/
 .hero {
-  background-color: var(--NAVY-BLUE, #2E2F42);
-  background-image: url(../images/people-office\ 1.svg);
-  background-repeat: none;
+ background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                      url(../images/people-office\ 1.svg);
   background-position: center;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0 188px;
   max-width: 1440px;
   margin: 0 auto;
@@ -192,6 +199,7 @@ background-size: cover;
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
@@ -295,6 +303,9 @@ background-size: cover;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
 .our-list-text {
@@ -315,6 +326,10 @@ background-size: cover;
 .our-social-icon {
     width: 40px;
     height: 40px;
+}
+
+.our-social-icon-svg{
+  fill: #f4f4fd;
 }
 
 .our-social-icon-link {
